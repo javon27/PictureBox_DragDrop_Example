@@ -63,6 +63,7 @@ namespace Drag_and_Drop
                     // You can swap the images out, replace the target image, etc.
                     SwapImages(source, target);
 
+                    selected = null;
                     SelectBox(target);
                     return;
                 }
