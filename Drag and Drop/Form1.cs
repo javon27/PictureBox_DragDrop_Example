@@ -25,6 +25,7 @@ namespace Drag_and_Drop
             try
             {
                 // Supply your own images here
+                // Sample images downloaded from https://www.freeimages.com
                 pictureBox1.BackgroundImage = Image.FromFile(@"Images\image1.jpg");
                 pictureBox2.BackgroundImage = Image.FromFile(@"Images\image2.jpg");
             }
